@@ -9,7 +9,7 @@ any_tag_you_write{
     background-color: aqua;
 } */
 
-body {
+ body {
     font-family: sans-serif;
   }
   
@@ -20,8 +20,10 @@ body {
     width: 300px;
     margin: 0 auto;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #f1c40f; 
     border-radius: 10px;
+    background-color: rebeccapurple;  
+    
   }
   
   button {
@@ -29,13 +31,13 @@ body {
     font-size: 1.2em;
     background-color: #fff;
     color: #333;
-    border: 1px solid #ccc;
+    border: 1px solid #f1c40f; /* change border color to pale orange*/
     border-radius: 5px;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #ccc;
+    background-color: #f1c40f; /* change background color to pale orange */
     color: #fff;
   }
   
@@ -44,8 +46,11 @@ body {
     text-align: right;
     padding: 10px;
     font-size: 1.5em;
-    border: 1px solid #ccc;
+    border: 1px solid #f1c40f;
     border-radius: 5px;
     margin-bottom: 10px;
+    background-color: #fff; 
+    color: #333;  
   }
-  
+   
+ 
