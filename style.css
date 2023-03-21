@@ -1,4 +1,4 @@
-div {
+/* div {
     background-color: aquamarine;
     width: 380px;
     height: 380px;
@@ -7,4 +7,45 @@ div {
 }
 any_tag_you_write{
     background-color: aqua;
-}
+} */
+
+body {
+    font-family: sans-serif;
+  }
+  
+  #calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  #result {
+    grid-column: 1 / -1;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
